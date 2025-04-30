@@ -1,0 +1,153 @@
+/* General Styles */
+html, body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #302144; /* Dark Purple background for branding */
+  color: #f9a000; /* Mustard text color for branding */
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+/* Main App Container */
+.App {
+  padding-top: 62px; /* Space for navbar */
+  height: calc(100vh); /* Adjust height for the app */
+  width: 100%;
+  position: relative;
+  overflow: auto;
+}
+
+/* Navbar Styles */
+.transparent-navbar {
+  background-color: rgba(89, 38, 81, 5) !important; /* Semi-transparent purple background */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Soft shadow for depth */
+  opacity: 1;
+}
+
+.transparent-navbar .navbar-brand {
+  color: #f9a000 !important; /* Mustard color for branding */
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.transparent-navbar .nav-link {
+  color: #f9a000 !important; /* Mustard text for navigation links */
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.transparent-navbar .nav-link:hover {
+  color: #ef5966 !important; /* Coral hover color for contrast */
+}
+
+.transparent-navbar .navbar-toggler {
+  border: none; /* Remove default border from toggle button */
+}
+
+.transparent-navbar .navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-image: var(--bs-navbar-toggler-icon-bg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Start Container */
+.start-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-height: 100vh; /* full viewport height */
+}
+
+/* START AR Button */
+.start-button {
+  background-color: #e49b14; /* Gold button background */
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px; /* space between buttons */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  z-index: 2; /* Ensure button is above the video */
+}
+
+.start-button:hover {
+  background-color: #ef5966; /* Coral hover background */
+  transform: scale(1.05);
+}
+
+.start-button:active {
+  transform: scale(1);
+}
+
+.instructions-button {
+  background-color: #007bff; /* Or choose a complementary color */
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  z-index: 2;
+}
+
+.instructions-button:hover {
+  background-color: #0069d9;
+  transform: scale(1.05);
+}
+
+/* AR Mode Fullscreen Container */
+.ar-mode {
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff; /* Black background for AR mode */
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  color: #f9a000; /* Mustard color for headings */
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #f0f0f0; /* Light text for readability */
+  font-size: 1rem;
+}
+
+/* Additional Styling for Branding Consistency */
+a {
+  color: #f47c33; /* Gold for links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ef5966; /* Coral hover color for links */
+}
+
+a:active {
+  color: #a53f5b; /* Magenta active color */
+}
+
+/* Custom style for the white hamburger icon */
+/* .custom-toggle, .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+} */

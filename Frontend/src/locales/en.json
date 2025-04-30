@@ -1,0 +1,81 @@
+{
+    "videoNotSupported": "Your browser does not support the video tag.",
+    "startAR": "START AR",
+    "credits": {
+    "title": "Credits",
+    "description": "We acknowledge the following contributors to the Psyche Web Development:",
+    "projectLead": "Project Lead: Defu Cui",
+    "frontendTeam": "Frontend Development Team",
+    "arTeam": "AR Development Team",
+    "media": "3D models, images, and videos",
+    "nasaTeam": "NASA Psyche Mission Team",
+    "specialThanks": "Special Thanks",
+    "moreInfo": "For more information, visit the",
+    "website": "Psyche Mission Website",
+    "disclaimer": "This work was created in partial fulfillment of University of Wisconsin – Platteville Capstone Course SE 4730. The work is a result of the Psyche Student Collaborations component of NASA’s Psyche Mission (https://psyche.asu.edu/). “Psyche: A Journey to a Metal World” [Contract number NNM16AA09C] is part of the NASA Discovery Program mission to solar system targets. Trade names and trademarks of ASU and NASA are used in this work for identification only. Their usage does not constitute an official endorsement, either expressed or implied, by Arizona State University or National Aeronautics and Space Administration. The content is solely the responsibility of the authors and does not necessarily represent the official views of ASU or NASA.​"
+  },
+  "videos": {
+    "title": "Mission Videos",
+    "video1": { "title": "Psyche Mission Overview" },
+    "video2": { "title": "Imaging a Metal World" },
+    "video3": { "title": "Psyche Mission Launch Highlights" },
+    "video4": { "title": "How Will #MissionToPsyche Use Gravity to Study An Asteroid?" },
+    "video5": { "title": "Psyche Spacecraft Chassis Arrival at JPL" }
+  },
+  "nav": {
+    "brand": "MISSION TO PSYCHE",
+    "home": "Home",
+    "psycheWebsite": "Psyche Mission Website",
+    "learnMore": "Learn More",
+    "videos": "Videos",
+    "credits": "Credits",
+    "instructions": "Instructions"
+  },
+  "learnMore": {
+    "title": "Learn More",
+    "marker1": {
+      "title": "Marker 1: Timeline",
+      "text": "The mission timeline spans nearly six years from launch to arrival. Psyche launched successfully on October 13, 2023, aboard a SpaceX Falcon Heavy rocket from Kennedy Space Center in Florida. After deployment, the spacecraft began its cruise phase, gradually adjusting its trajectory with its ion thrusters. In May 2026, it will perform a gravity assist flyby of Mars, using the planet’s gravitational pull to refine its trajectory and gain additional speed. This maneuver will help Psyche reach its final destination in August 2029, when it will enter orbit around the asteroid. The spacecraft will spend about 26 months (just over two years) in orbit, gradually lowering its altitude through a series of mission phases to capture high-resolution images and collect data on Psyche’s composition, gravity field, and potential remnant magnetism. The mission is expected to conclude by late 2031, marking one of NASA’s most ambitious explorations of a metallic asteroid."
+    },
+    "marker2": {
+      "title": "Marker 2: Mission Importance",
+      "text": "The Psyche mission will provide valuable insights into the composition and history of metal-rich asteroids, potentially revolutionizing our understanding of planetary formation and the evolution of celestial bodies. By studying Psyche, which may be the exposed core of an early planetesimal, scientists can gain direct insights into the building blocks of rocky planets like Earth. This could help refine theories about how planetary cores form and evolve, shedding light on Earth's own inaccessible metallic core. Additionally, the mission’s instruments, such as the multispectral imager, magnetometer, and gamma-ray and neutron spectrometer, will help determine Psyche’s composition, magnetic properties, and geological history, offering new perspectives on the violent collisions and processes that shaped the solar system."
+    },
+    "marker3": {
+      "title": "Marker 3: Asteroid",
+      "text": "Psyche is a massive, metal-rich asteroid located in the main asteroid belt between Mars and Jupiter, orbiting the Sun at an average distance of 280 million miles (450 million kilometers). Measuring approximately 140 miles (226 kilometers) in diameter, it is one of the largest asteroids in the asteroid belt and stands out due to its unusual composition. Unlike most asteroids, which are primarily rocky or icy, Psyche is believed to be composed largely of iron and nickel, similar to Earth's core. Observations of Psyche have revealed a highly irregular, cratered surface, suggesting a history of intense impacts over billions of years. While radar and spectral data indicate that Psyche may be largely metallic, some regions may contain rock or regolith-like material, possibly remnants of its original crust or debris from past collisions. Its density, estimated at 3,400 to 4,100 kg/m³, suggests that it is not a solid metal body but rather a fractured, porous structure with potential voids."
+    },
+    "marker4": {
+      "title": "Marker 4: Spacecraft Instruments",
+      "text": "Beyond planetary science, the Psyche mission will also drive technological advancements that will shape the future of space exploration. The spacecraft's solar electric propulsion system, using Hall-effect thrusters, represents a leap in deep-space propulsion efficiency, paving the way for future long-duration missions to the outer solar system and beyond. Moreover, the mission includes the Deep Space Optical Communications (DSOC) experiment, which will test high-bandwidth laser communication far beyond the Moon, potentially enabling faster and more efficient data transmission for future interplanetary missions. These innovations could enhance our ability to explore distant worlds, including Mars and the outer planets, and may even support future human exploration by improving communication and navigation in deep space. Ultimately, Psyche’s findings and technological advancements will serve as stepping stones toward more ambitious space missions, broadening humanity’s reach across the solar system."
+    },
+    "marker5": {
+      "title": "Marker 5: Orbits Around Psyche",
+      "text": "Once the Psyche spacecraft arrives at asteroid Psyche in August 2029, it will begin an elliptical orbit designed to optimize its observations and ensure a safe approach. This orbit will be carefully calibrated to avoid any potential hazards from debris or irregularities in the asteroid’s gravity. Over the course of several months, the spacecraft will gradually lower its orbit, gathering data on Psyche’s gravitational field, metal distribution, and surface features. These orbital adjustments will allow the spacecraft to begin detailed surveys of the asteroid from varying altitudes, providing a comprehensive set of data that will be critical for understanding its composition and structure. The spacecraft will remain in orbit for roughly 26 months, completing multiple orbits as it uses a combination of imaging tools, spectrometers, and other sensors to map the asteroid’s surface and learn more about its potential history as an exposed planetary core."
+    }
+  },
+  "instructions": {
+  "title": "Instructions",
+  "step1": {
+    "title": "Launch AR Mode",
+    "text": "Click the Start AR button on the home page to enter AR mode. When prompted, allow the app to access your camera."
+  },
+  "step2": {
+    "title": "Using AR Mode",
+    "text": "When a marker is detected, the AR content will automatically appear on your screen. Click on Learn More to access additional information about the marker."
+  },
+  "step3": {
+    "title": "Navigate the AR Scene",
+    "text": "Each marker has its own AR scene. Certain scenes have intertive elements that you can interact with. Use your finger to move around the scene and explore. For example, in the scene shown in the image, you can rotate the Psyche spacecraft model to view it from different angles."
+  },
+  "step4": {
+    "title": "Interact with AR Elements",
+    "text": "Some scenes have bonus content that users can interact with. For example, in the scene shown in the image, you can click on the gold balls to go deeper into the AR experience. A purple ball indicates that the user has already clicked on it."
+  },
+  "step5": {
+    "title": "Return Home",
+    "text": "Use the navigation bar to return to the home screen anytime by clicking on 'MISSION TO PSYCHE'. You can also use this to explore the non AR version in the 'Learn More' section."
+  }
+}
+  }
+  

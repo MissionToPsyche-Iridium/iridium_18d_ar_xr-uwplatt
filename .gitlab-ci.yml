@@ -1,0 +1,37 @@
+image: node:18
+
+cache:
+  paths:
+    - node_modules/
+
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  script:
+    - ls -la
+    - cd Frontend
+    - npm install typescript@4.9.5 --save-dev --legacy-peer-deps  
+    - npm ci --legacy-peer-deps  
+    - npm install i18next react-i18next --legacy-peer-deps
+    - npm install react-tsparticles tsparticles --legacy-peer-deps
+    - npm install tsparticles-slim --legacy-peer-deps
+    - npm install @flodlc/nebula --legacy-peer-deps
+    - npm run build
+    - ls -la build/
+  artifacts:
+    paths:
+      - Frontend/build
+
+pages:
+  stage: deploy
+  script:
+    - mv Frontend/build public
+    - ls -la public
+  artifacts:
+    paths:
+      - public
+  only:
+    - dev
