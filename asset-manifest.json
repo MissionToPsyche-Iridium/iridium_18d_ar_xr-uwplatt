@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/iridium_18d_ar_xr-uwplatt/static/css/main.eb63cf30.css",
+    "main.js": "/iridium_18d_ar_xr-uwplatt/static/js/main.f6191f77.js",
+    "static/js/453.04e2337a.chunk.js": "/iridium_18d_ar_xr-uwplatt/static/js/453.04e2337a.chunk.js",
+    "static/media/IMG3.PNG": "/iridium_18d_ar_xr-uwplatt/static/media/IMG3.47708d343e931e74b395.PNG",
+    "static/media/IMG4.PNG": "/iridium_18d_ar_xr-uwplatt/static/media/IMG4.3b6fb4cf53c2c0b5965c.PNG",
+    "static/media/IMG5.PNG": "/iridium_18d_ar_xr-uwplatt/static/media/IMG5.b6f11bf39b334250dc93.PNG",
+    "static/media/IMG2.PNG": "/iridium_18d_ar_xr-uwplatt/static/media/IMG2.cf53c2b1f141148fa936.PNG",
+    "static/media/IMG1.PNG": "/iridium_18d_ar_xr-uwplatt/static/media/IMG1.8644c7aa4bb3b59d9fce.PNG",
+    "static/media/Marker5.png": "/iridium_18d_ar_xr-uwplatt/static/media/Marker5.505dac9c6f29ab9de687.png",
+    "static/media/Marker1.png": "/iridium_18d_ar_xr-uwplatt/static/media/Marker1.3a6f93570ac1ce15b975.png",
+    "static/media/Marker2.png": "/iridium_18d_ar_xr-uwplatt/static/media/Marker2.d55d209f5623ac6a5d44.png",
+    "static/media/Marker3.png": "/iridium_18d_ar_xr-uwplatt/static/media/Marker3.b069e1297650fed14068.png",
+    "static/media/Marker4.png": "/iridium_18d_ar_xr-uwplatt/static/media/Marker4.2638b6e2b14daf028fa2.png",
+    "index.html": "/iridium_18d_ar_xr-uwplatt/index.html",
+    "main.eb63cf30.css.map": "/iridium_18d_ar_xr-uwplatt/static/css/main.eb63cf30.css.map",
+    "main.f6191f77.js.map": "/iridium_18d_ar_xr-uwplatt/static/js/main.f6191f77.js.map",
+    "453.04e2337a.chunk.js.map": "/iridium_18d_ar_xr-uwplatt/static/js/453.04e2337a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb63cf30.css",
+    "static/js/main.f6191f77.js"
+  ]
+}
