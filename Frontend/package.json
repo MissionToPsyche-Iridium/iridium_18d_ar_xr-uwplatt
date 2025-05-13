@@ -1,7 +1,7 @@
 {
   "name": "test-site",
   "version": "0.1.0",
-  "homepage": "https://ar-602592.gitlab.io",
+  "homepage": "https://missiontopsyche-iridium.github.io/iridium_18d_ar_xr-uwplatt/",
   "private": true,
   "dependencies": {
     "@flodlc/nebula": "^1.0.56",
