@@ -1,4 +1,14 @@
-/* General container styling */
+/**
+ * LearnMore.css
+ *
+ * Author(s): Sam Miller, Lahiru Suraweera
+ * Purpose: Defines the visual styling for the "Learn More" section of the site.
+ *          Includes styles for the interactive cards, responsive layout,
+ *          animations, and text reveal effects.
+ * Date Written: May 14, 2025
+ */
+
+/* Main container for Learn More section */
 .learn-more-container {
   padding-top: 20px;
   text-align: center;
@@ -8,7 +18,7 @@
   padding-bottom: 50px;
 }
 
-/* Title Styling */
+/* Section title styling */
 .learn-more-title {
   font-size: 2.5rem;
   font-weight: bold;
@@ -16,19 +26,19 @@
   color: #f9a000;
 }
 
-/* Cards Grid Layout */
+/* Layout for cards: flexible and responsive grid */
 .learn-more-grid {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap;              /* Allows items to wrap to the next row */
   justify-content: center;
   gap: 30px;
   max-width: 1100px;
   margin: 0 auto;
 }
 
-/* Individual Card Styling */
+/* Base styling for each marker card */
 .learn-more-card {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.1); /* Translucent background */
   color: white;
   border-radius: 12px;
   overflow: hidden;
@@ -41,16 +51,17 @@
   align-items: center;
   text-align: center;
   padding: 15px;
-  min-height: 300px; /* Ensures the card doesn't shrink */
+  min-height: 300px; /* Prevents visual collapse when content is small */
   z-index: 1;
 }
 
+/* Hover interaction to highlight the card */
 .learn-more-card:hover {
-  transform: scale(1.05);
-  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);                          /* Slight zoom */
+  background: rgba(255, 255, 255, 0.2);             /* Lighter translucent bg */
 }
 
-/* Image Styling */
+/* Image styling inside each card */
 .learn-more-image {
   width: 100%;
   height: auto;
@@ -61,12 +72,12 @@
   z-index: 1;
 }
 
-/* Content inside Card */
+/* Container for text content under each image */
 .learn-more-content {
   padding: 15px;
 }
 
-/* Initially Hide Text */
+/* Hidden text content by default */
 .learn-more-text {
   font-size: 1rem;
   color: #000;
@@ -74,18 +85,21 @@
   opacity: 0;
   max-height: 0;
   overflow: hidden;
-  transition: opacity 0.5s ease-in-out, max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
+  transition:
+    opacity 0.5s ease-in-out,
+    max-height 0.5s ease-in-out,
+    padding 0.5s ease-in-out;
 }
 
-/* Show Text When Active */
+/* Expanded text styling when the card is active */
 .learn-more-card.active .learn-more-text {
   opacity: 1;
-  backdrop-filter: blur(6px);
-  max-height: 2000px; /* Adjust this based on content */
+  backdrop-filter: blur(6px);       /* Optional visual effect */
+  max-height: 2000px;               /* Accommodates full content */
   padding-top: 10px;
 }
 
-/* Mobile Optimization */
+/* Responsive behavior for mobile devices */
 @media (max-width: 768px) {
   .learn-more-title {
     font-size: 2rem;
@@ -97,6 +111,6 @@
   }
 
   .learn-more-card {
-    width: 90%;
+    width: 90%;                    /* Adjust card width for smaller screens */
   }
 }

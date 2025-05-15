@@ -2,17 +2,22 @@
   "videoNotSupported": "Votre navigateur ne prend pas en charge la balise vidéo.",
   "startAR": "DÉMARRER AR",
   "credits": {
-    "title": "Crédits",
-    "description": "Nous remercions les contributeurs suivants au développement Web de Psyche :",
-    "projectLead": "Chef de projet : Defu Cui",
-    "frontendTeam": "Équipe de développement Frontend",
-    "arTeam": "Équipe de développement AR",
-    "media": "Modèles 3D, images et vidéos",
-    "nasaTeam": "Équipe de la mission NASA Psyche",
-    "specialThanks": "Remerciements spéciaux",
-    "moreInfo": "Pour plus d'informations, visitez le",
-    "website": "Site Web de la mission Psyche"
-  },
+  "title": "Crédits",
+  "description": "Nous remercions les contributeurs suivants au développement web de Psyche :",
+  "projectLead": "Chef de projet : Defu Cui",
+  "frontendTeam": "Équipe de Développement Frontend",
+  "frontendMembers": "Lahiru Suraweera, Sam Miller, Samuel Bergemann, Zach Burrell, Eli Jacobson",
+  "arTeam": "Équipe de Développement AR",
+  "arMembers": "Thomas Apel, Alexander Cleaver, Jack Linke, Evan Lee, Kase Tadych, Andrew Suetholz, Logan Lusk, April Woolcock",
+  "media": "Modèles 3D, images et vidéos",
+  "nasaTeam": "Équipe de la Mission Psyche de la NASA",
+  "specialThanks": "Remerciements Spéciaux",
+  "specialThanksNames": "Dr. Cassie Bowman et l'équipe de la mission Psyche à ASU",
+  "disclaimerLabel": "Avertissement",
+  "moreInfo": "Pour plus d'informations, visitez le",
+  "website": "Site Web de la Mission Psyche",
+  "disclaimerText": "Ce travail a été réalisé dans le cadre du cours SE 4730 de l’Université du Wisconsin – Platteville. Il résulte du programme de collaboration étudiante de la mission Psyche de la NASA (https://psyche.asu.edu/). « Psyche : Un voyage vers un monde métallique » [Numéro de contrat NNM16AA09C] fait partie du programme Discovery de la NASA pour les missions dans le système solaire. Les noms commerciaux et marques déposées d’ASU et de la NASA sont utilisés à des fins d’identification uniquement. Leur utilisation ne constitue pas une approbation officielle, expresse ou implicite, de l’Université d’État de l’Arizona ou de la NASA. Le contenu est de la seule responsabilité des auteurs et ne reflète pas nécessairement les vues officielles de l’ASU ou de la NASA."
+},
   "videos": {
     "title": "Vidéos de la mission",
     "video1": { "title": "Aperçu de la mission Psyche" },
@@ -33,11 +38,11 @@
   "learnMore": {
     "title": "En savoir plus",
     "marker1": {
-      "title": "Marqueur 1 : Chronologie",
+      "title": "Marqueur 2 : Chronologie",
       "text": "La chronologie de la mission s'étend sur près de six ans entre le lancement et l'arrivée. Psyche a été lancée avec succès le 13 octobre 2023 à bord d'une fusée SpaceX Falcon Heavy depuis le centre spatial Kennedy en Floride. Après le déploiement, le vaisseau a commencé sa phase de croisière, ajustant progressivement sa trajectoire avec ses propulseurs ioniques. En mai 2026, il effectuera un survol assisté par gravité de Mars, utilisant la force gravitationnelle de la planète pour affiner sa trajectoire et gagner en vitesse. Cette manœuvre aidera Psyche à atteindre sa destination finale en août 2029, lorsqu'il entrera en orbite autour de l'astéroïde. Le vaisseau passera environ 26 mois (un peu plus de deux ans) en orbite, abaissant progressivement son altitude à travers une série de phases pour capturer des images haute résolution et collecter des données sur la composition, le champ gravitationnel et le magnétisme résiduel potentiel de Psyche. La mission devrait se conclure fin 2031, marquant l'une des explorations les plus ambitieuses de la NASA concernant un astéroïde métallique."
     },
     "marker2": {
-      "title": "Marqueur 2 : Importance de la mission",
+      "title": "Marqueur 1 : Importance de la mission",
       "text": "La mission Psyche fournira des informations précieuses sur la composition et l'histoire des astéroïdes riches en métaux, pouvant révolutionner notre compréhension de la formation des planètes et de l'évolution des corps célestes. En étudiant Psyche, qui pourrait être le noyau exposé d'une ancienne planétésimale, les scientifiques peuvent obtenir un aperçu direct des éléments constitutifs des planètes rocheuses comme la Terre. Cela pourrait aider à affiner les théories sur la formation et l'évolution des noyaux planétaires, en éclairant le noyau métallique inaccessible de la Terre. De plus, les instruments de la mission, tels que l'imageur multispectral, le magnétomètre et le spectromètre gamma et neutronique, permettront de déterminer la composition, les propriétés magnétiques et l'histoire géologique de Psyche, offrant ainsi de nouvelles perspectives sur les collisions violentes et les processus qui ont façonné le système solaire."
     },
     "marker3": {
@@ -55,6 +60,7 @@
   },
   "instructions": {
     "title": "Instructions",
+    "button": "Instructions",
     "step1": {
       "title": "Lancer le mode AR",
       "text": "Cliquez sur le bouton AR de la page d'accueil pour entrer en mode réalité augmentée."

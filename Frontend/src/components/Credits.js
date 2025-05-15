@@ -1,29 +1,80 @@
-import React from 'react';
-import { useTranslation } from 'react-i18next'; // Import translation hook
-import './Credits.css';
+/**
+ * Credits.js
+ *
+ * Author(s): Sam Miller, Lahiru Suraweera
+ * Purpose: This React component displays the Credits section of the application,
+ *          providing acknowledgment to contributors and supporters, styled with
+ *          a background, particles effect, and internationalized text.
+ * Date Written: May 14, 2025
+ */
 
+import React from 'react';
+import { useTranslation } from 'react-i18next'; // Hook for i18n translations
+import './Credits.css'; // Styles specific to the credits section
+import Particles from './Particles'; // Visual effect component
+
+/**
+ * Credits Component
+ * 
+ * Renders a styled credits page that includes:
+ * - Background visuals
+ * - A particle animation layer
+ * - A translated list of project contributors and acknowledgments
+ * - Footer with additional information and disclaimers
+ */
 const Credits = () => {
-  const { t } = useTranslation(); // Hook to access translations
+  const { t } = useTranslation(); // Access the translation function
 
   return (
     <div>
+      {/* Background overlay */}
       <div className="credits-background"></div>
+
+      {/* Main container for credits content */}
       <div id="credits" className="credits-container">
+        <Particles /> {/* Animated background particles */}
+
+        {/* Credits page header */}
         <h1 className="credits-title">{t('credits.title')}</h1>
         <p className="credits-description">{t('credits.description')}</p>
+
+        {/* List of contributors */}
         <ul className="credits-list">
           <li><strong>{t('credits.projectLead')}</strong></li>
-          <li><strong>{t('credits.frontendTeam')}:</strong> Lahiru Suraweera, Sam Miller, Samuel Bergemann, Zach Burrell, Eli Jacobson</li>
-          <li><strong>{t('credits.arTeam')}:</strong> Thomas Apel, Alexander Cleaver, Jack Linke, Evan Lee, Kase Tadych, Andrew Suetholz, Logan Lusk, April Woolcock</li>
-          <li><strong>{t('credits.media')}:</strong> {t('credits.nasaTeam')}</li>
-          <li><strong>{t('credits.specialThanks')}:</strong> Dr. Cassie Bowman and the Psyche Mission Team at ASU</li>
-          <li><strong>{t('credits.disclaimer')}:</strong> Disclaimer": </li>
+
+          <li>
+            <strong>{t('credits.frontendTeam')}:</strong>{' '}
+            {t('credits.frontendMembers', 'Lahiru Suraweera, Sam Miller, Samuel Bergemann, Zach Burrell, Eli Jacobson')}
+          </li>
+
+          <li>
+            <strong>{t('credits.arTeam')}:</strong>{' '}
+            {t('credits.arMembers', 'Thomas Apel, Alexander Cleaver, Jack Linke, Evan Lee, Kase Tadych, Andrew Suetholz, Logan Lusk, April Woolcock')}
+          </li>
+
+          <li>
+            <strong>{t('credits.media')}:</strong>{' '}
+            {t('credits.nasaTeam')}
+          </li>
+
+          <li>
+            <strong>{t('credits.specialThanks')}:</strong>{' '}
+            {t('credits.specialThanksNames', 'Dr. Cassie Bowman and the Psyche Mission Team at ASU')}
+          </li>
         </ul>
+
+        {/* Footer with link to official website */}
         <p className="credits-footer">
-          {t('credits.moreInfo')} <a href="https://psyche.asu.edu" target="_blank" rel="noopener noreferrer">{t('credits.website')}</a>.
+          {t('credits.moreInfo')}{' '}
+          <a href="https://psyche.asu.edu" target="_blank" rel="noopener noreferrer">
+            {t('credits.website')}
+          </a>.
         </p>
+
+        {/* Disclaimer text */}
         <p className="credits-disclaimer">
-        <strong>{t('Disclaimer: ')}</strong>This work was created in partial fulfillment of University of Wisconsin – Platteville Capstone Course SE 4730. The work is a result of the Psyche Student Collaborations component of NASA’s Psyche Mission (https://psyche.asu.edu/). “Psyche: A Journey to a Metal World” [Contract number NNM16AA09C] is part of the NASA Discovery Program mission to solar system targets. Trade names and trademarks of ASU and NASA are used in this work for identification only. Their usage does not constitute an official endorsement, either expressed or implied, by Arizona State University or National Aeronautics and Space Administration. The content is solely the responsibility of the authors and does not necessarily represent the official views of ASU or NASA.​
+          <strong>{t('credits.disclaimerLabel')} </strong>
+          {t('credits.disclaimerText')}
         </p>
       </div>
     </div>

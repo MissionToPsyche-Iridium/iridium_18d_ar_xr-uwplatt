@@ -1,30 +1,54 @@
+/**
+ * ARVRToggle.js
+ *
+ * Author(s): Sam Miller, Lahiru Suraweera
+ * Purpose: A toggle component that allows the user to switch between AR and VR modes.
+ *          Includes styling for light/dark themes and passes the selected mode back to the parent on confirmation.
+ * Date Written: May 14, 2025
+ */
+
 import React, { useState } from 'react';
 
+/**
+ * ARVRToggle Component
+ *
+ * Props:
+ * - onConfirm: function that receives the selected mode ('AR' or 'VR') when the user clicks confirm
+ * - darkMode: boolean to toggle between dark/light UI themes
+ */
 const ARVRToggle = ({ onConfirm, darkMode }) => {
-  const [mode, setMode] = useState('AR');
+  const [mode, setMode] = useState('AR'); // Default mode is AR
 
+  // Toggles between AR and VR modes
   const handleToggle = () => {
     setMode((prevMode) => (prevMode === 'AR' ? 'VR' : 'AR'));
   };
 
+  // Sends the current mode to the parent component
   const handleConfirm = () => {
     onConfirm(mode);
   };
 
   return (
     <div style={{ ...styles.container, backgroundColor: darkMode ? '#444' : '#f9f9f9' }}>
-      <h2 style={{ ...styles.heading, color: darkMode ? '#f0f0f0' : '#333' }}>Choose Your Experience</h2>
+      <h2 style={{ ...styles.heading, color: darkMode ? '#f0f0f0' : '#333' }}>
+        Choose Your Experience
+      </h2>
+
+      {/* Toggle button to switch modes */}
       <button
         style={{
           ...styles.toggleButton,
-          backgroundColor: '#007bff', // Explicitly set to blue
+          backgroundColor: '#007bff', // Consistent blue color for toggle
         }}
         onClick={handleToggle}
       >
         {mode === 'AR' ? 'Switch to VR' : 'Switch to AR'}
       </button>
+
+      {/* Confirmation button */}
       <div style={{ marginTop: '30px' }}>
-        <button style={{ ...styles.confirmButton }} onClick={handleConfirm}>
+        <button style={styles.confirmButton} onClick={handleConfirm}>
           Confirm
         </button>
       </div>
@@ -32,6 +56,9 @@ const ARVRToggle = ({ onConfirm, darkMode }) => {
   );
 };
 
+/**
+ * Inline styles for the component
+ */
 const styles = {
   container: {
     textAlign: 'center',

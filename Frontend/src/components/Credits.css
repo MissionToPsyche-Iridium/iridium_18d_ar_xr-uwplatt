@@ -1,87 +1,105 @@
+/**
+ * credits.css
+ *
+ * Author(s): Sam Miller, Lahiru Suraweera
+ * Purpose: Provides styling for the Credits page, including layout, colors, typography,
+ *          and responsive design elements for credit content and background visuals.
+ * Date Written: May 14, 2025
+ */
+
+/* Base body styling */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9; /* Light background for general pages */
+}
 
-  body, html {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
+/* Ensure body and html occupy full height of viewport */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
-  .credits-container {
-    padding-top: 40px;
-    text-align: center;
-    background: linear-gradient(135deg, #302144 0%, #f9a000 100%);
-    min-height: 94vh; /* Full height of the viewport */
-    padding-bottom: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    z-index: 2;
-  }
-  
-  
-  .credits-background {
-    position: fixed;
-    top: 50px; /* Start at the very top of the screen */
-    left: 0;
-    width: 100%;
-    background-size: cover; /* Ensure the image covers the entire viewport */
-    background-position: center; /* Center the image */
-    background-attachment: fixed; /* Fix the image while scrolling */
-    z-index: 1;
-  }
-  
-  
-  .credits-title {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #ffffff;
-    margin-bottom: 20px;
-  }
-  
-  .credits-description {
-    font-size: 1.2rem;
-    color: #ffffff;
-    margin-bottom: 30px;
-  }
-  
-  .credits-list {
-    list-style: none;
-    padding: 0;
-    font-size: 1rem;
-    color: #ffffff;
-    text-align: left;
-    line-height: 1.6;
-    margin: 0 auto;
-    max-width: 600px;
-  }
-  
-  .credits-list li {
-    margin-bottom: 10px;
-  }
-  
-  .credits-footer {
-    font-size: 1rem;
-    color: #ffffff;
-    margin-top: 30px;
-  }
-  
-  .credits-footer a {
-    color: #007bff;
-    text-decoration: none;
-  }
+/* Container for the credits section */
+.credits-container {
+  padding-top: 40px;
+  text-align: center;
+  background: linear-gradient(135deg, #302144 0%, #f9a000 100%); /* Gradient background */
+  min-height: 94vh;             /* Nearly full screen height */
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;          /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  z-index: 2;                   /* Above background layer */
+}
 
-  .credits-disclaimer {
-    text-decoration: none;
-    font-size: small;
-  }
-  
-  .credits-footer a:hover {
-    text-decoration: underline;
-  }
-  
+/* Background image styling behind the credits section */
+.credits-background {
+  position: fixed;
+  top: 50px;                   /* Leaves room for navbar/header */
+  left: 0;
+  width: 100%;
+  background-size: cover;     /* Stretch background to cover full screen */
+  background-position: center;
+  background-attachment: fixed; /* Keeps background fixed during scroll */
+  z-index: 1;                 /* Behind the content */
+}
+
+/* Title styling for the credits header */
+.credits-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+/* Description text under the title */
+.credits-description {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+/* List of contributors and acknowledgments */
+.credits-list {
+  list-style: none;           /* Removes default bullets */
+  padding: 0;
+  font-size: 1rem;
+  color: #ffffff;
+  text-align: left;
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 600px;           /* Limits line width for readability */
+}
+
+/* Spacing for individual list items */
+.credits-list li {
+  margin-bottom: 10px;
+}
+
+/* Footer section containing links and disclaimer */
+.credits-footer {
+  font-size: 1rem;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+/* Footer link styles */
+.credits-footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Hover effect for footer links */
+.credits-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Styling for any disclaimer text */
+.credits-disclaimer {
+  text-decoration: none;
+  font-size: small;
+}

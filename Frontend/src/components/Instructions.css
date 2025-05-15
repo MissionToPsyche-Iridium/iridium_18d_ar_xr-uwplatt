@@ -1,56 +1,72 @@
+/**
+ * instructions.css
+ *
+ * Author(s): Sam Miller, Lahiru Suraweera
+ * Purpose: Styles the AR instructions page with a modern, responsive design.
+ *          Provides layout for instructions text, section containers, and images.
+ * Date Written: May 14, 2025
+ */
+
+/* Main container for the instruction page */
 .instructions-container {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Centers content vertically */
-  align-items: center; /* Centers content horizontally */
+  justify-content: center; /* Vertically centers content */
+  align-items: center;     /* Horizontally centers content */
   padding: 60px 20px;
   background: linear-gradient(135deg, #302144 0%, #f9a000 100%);
-  min-height: 100vh;
+  min-height: 100vh;       /* Full viewport height */
   color: #ffffff;
   text-align: center;
 }
 
+/* Large title at the top of the instructions page */
 .instructions-title {
   font-size: 3rem;
   font-weight: bold;
   margin-bottom: 40px;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4); /* Subtle text shadow for readability */
   text-align: center;
 }
 
+/* Wrapper for the instructions text */
 .instructions-body {
   max-width: 800px;
   margin: 0 auto;
-  text-align: left;
+  text-align: left; /* Left-aligned for better paragraph readability */
 }
 
+/* Image used within instruction sections */
 .instruction-img {
   display: block;
   margin: 0 auto;
   width: 50%;
   max-height: 800px;
-  object-fit: cover;
-  border-radius: 8px;
-  transition: transform 0.3s ease-in-out;
+  object-fit: cover;       /* Ensures image maintains aspect ratio */
+  border-radius: 8px;      /* Rounded corners */
+  transition: transform 0.3s ease-in-out; /* Smooth hover zoom */
   z-index: 1;
 }
 
+/* Individual section block for each instruction */
 .instruction-section {
   margin-bottom: 40px;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.05); /* Light translucent overlay */
   padding: 25px 30px;
   border-radius: 16px;
-  backdrop-filter: blur(6px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(6px);           /* Glassmorphism effect */
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); /* Depth via shadow */
   transition: background 0.3s ease;
   align-items: center;
   justify-content: center;
 }
 
+/* Slight background change on hover for visual feedback */
 .instruction-section:hover {
   background: rgba(255, 255, 255, 0.1);
 }
 
+/* Section heading styling */
 .instruction-section h2 {
   font-size: 1.6rem;
   color: #ffffff;
@@ -58,6 +74,7 @@
   text-align: center;
 }
 
+/* Paragraph styling inside each instruction section */
 .instruction-section p {
   font-size: 1.05rem;
   line-height: 1.7;
@@ -65,7 +82,7 @@
   text-align: center;
 }
 
-/* Mobile */
+/* Responsive adjustments for mobile devices */
 @media (max-width: 768px) {
   .instructions-title {
     font-size: 2.2rem;

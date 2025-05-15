@@ -2,17 +2,22 @@
   "videoNotSupported": "您的浏览器不支持视频标签。",
   "startAR": "启动 AR",
   "credits": {
-    "title": "致谢",
-    "description": "我们感谢以下对 Psyche 网站开发作出贡献的人员：",
-    "projectLead": "项目负责人：崔德福",
-    "frontendTeam": "前端开发团队",
-    "arTeam": "增强现实开发团队",
-    "media": "3D 模型、图像和视频",
-    "nasaTeam": "NASA Psyche 任务团队",
-    "specialThanks": "特别感谢",
-    "moreInfo": "欲了解更多信息，请访问",
-    "website": "Psyche 任务网站"
-  },
+  "title": "致谢",
+  "description": "我们感谢以下人员对 Psyche 网站开发的贡献：",
+  "projectLead": "项目负责人：Defu Cui",
+  "frontendTeam": "前端开发团队",
+  "frontendMembers": "Lahiru Suraweera、Sam Miller、Samuel Bergemann、Zach Burrell、Eli Jacobson",
+  "arTeam": "增强现实开发团队",
+  "arMembers": "Thomas Apel、Alexander Cleaver、Jack Linke、Evan Lee、Kase Tadych、Andrew Suetholz、Logan Lusk、April Woolcock",
+  "media": "3D 模型、图片和视频",
+  "nasaTeam": "NASA Psyche 任务团队",
+  "specialThanks": "特别感谢",
+  "specialThanksNames": "Cassie Bowman 博士和亚利桑那州立大学的 Psyche 任务团队",
+  "disclaimerLabel": "免责声明",
+  "moreInfo": "欲了解更多信息，请访问",
+  "website": "Psyche 任务官方网站",
+  "disclaimerText": "本作品是在威斯康星大学普莱特维尔分校 SE 4730 毕业课程的部分要求下创作的。该作品是 NASA Psyche 任务的学生协作组件（https://psyche.asu.edu/）的成果。“Psyche：通往金属世界的旅程” [合同号 NNM16AA09C] 是 NASA 探索计划的一部分，目标是太阳系中的天体。本作品中使用的 ASU 和 NASA 的商标和名称仅用于识别目的。其使用不构成亚利桑那州立大学或美国国家航空航天局的正式认可，无论是明示还是暗示。内容完全由作者负责，并不一定代表 ASU 或 NASA 的官方立场。"
+},
   "videos": {
     "title": "任务视频",
     "video1": { "title": "Psyche 任务概览" },
@@ -33,11 +38,11 @@
   "learnMore": {
     "title": "了解更多",
     "marker1": {
-      "title": "标记点 1：任务时间表",
+      "title": "标记点 2：任务时间表",
       "text": "任务时间表从发射到抵达大约跨越六年。Psyche 于 2023 年 10 月 13 日成功发射，搭载 SpaceX 猎鹰重型火箭从佛罗里达州的肯尼迪航天中心升空。部署后，飞船开始其巡航阶段，通过离子推进器逐步调整轨道。2026 年 5 月，它将利用火星的引力进行一次重力辅助飞行，进一步优化轨道并加速。这一操作将有助于 Psyche 在 2029 年 8 月进入目标小行星的轨道。飞船将在轨道上运行约 26 个月（两年多一点），通过多个任务阶段逐步降低高度，以捕捉高分辨率图像并收集关于小行星成分、重力场和残余磁性的相关数据。该任务预计将于 2031 年底结束，标志着 NASA 最具雄心的金属小行星探索之一。"
     },
     "marker2": {
-      "title": "标记点 2：任务重要性",
+      "title": "标记点 1：任务重要性",
       "text": "Psyche 任务将为我们提供金属富集型小行星的成分和历史的宝贵见解，有望彻底改变我们对行星形成和天体演化的理解。研究可能是早期星体裸露核心的 Psyche，将帮助科学家深入了解地球等岩石行星的构成。这将有助于完善关于行星核心如何形成与演化的理论，揭示地球内部无法直接探测的金属核心。此外，任务的多光谱成像仪、磁强计和伽马射线与中子光谱仪等仪器将有助于确定 Psyche 的成分、磁性特性和地质历史，为太阳系早期的剧烈碰撞和演化过程提供新的视角。"
     },
     "marker3": {
@@ -55,6 +60,7 @@
   },
   "instructions": {
     "title": "使用说明",
+    "button": "使用说明",
     "step1": {
       "title": "启动 AR 模式",
       "text": "点击主页上的 AR 按钮以进入增强现实模式。"
