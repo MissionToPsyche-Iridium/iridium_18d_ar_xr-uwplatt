@@ -38,11 +38,11 @@
   "learnMore": {
     "title": "Learn More",
     "marker1": {
-      "title": "Marker 2: Timeline",
+      "title": "Marker 1: Timeline",
       "text": "The mission timeline spans nearly six years from launch to arrival. Psyche launched successfully on October 13, 2023, aboard a SpaceX Falcon Heavy rocket from Kennedy Space Center in Florida. After deployment, the spacecraft began its cruise phase, gradually adjusting its trajectory with its ion thrusters. In May 2026, it will perform a gravity assist flyby of Mars, using the planet’s gravitational pull to refine its trajectory and gain additional speed. This maneuver will help Psyche reach its final destination in August 2029, when it will enter orbit around the asteroid. The spacecraft will spend about 26 months (just over two years) in orbit, gradually lowering its altitude through a series of mission phases to capture high-resolution images and collect data on Psyche’s composition, gravity field, and potential remnant magnetism. The mission is expected to conclude by late 2031, marking one of NASA’s most ambitious explorations of a metallic asteroid."
     },
     "marker2": {
-      "title": "Marker 1: Mission Importance",
+      "title": "Marker 2: Mission Importance",
       "text": "The Psyche mission will provide valuable insights into the composition and history of metal-rich asteroids, potentially revolutionizing our understanding of planetary formation and the evolution of celestial bodies. By studying Psyche, which may be the exposed core of an early planetesimal, scientists can gain direct insights into the building blocks of rocky planets like Earth. This could help refine theories about how planetary cores form and evolve, shedding light on Earth's own inaccessible metallic core. Additionally, the mission’s instruments, such as the multispectral imager, magnetometer, and gamma-ray and neutron spectrometer, will help determine Psyche’s composition, magnetic properties, and geological history, offering new perspectives on the violent collisions and processes that shaped the solar system."
     },
     "marker3": {

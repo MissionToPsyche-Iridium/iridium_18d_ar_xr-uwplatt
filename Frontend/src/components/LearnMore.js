@@ -42,8 +42,8 @@ const LearnMore = () => {
 
   // Array of card content, each containing an ID, translated title, text, and image
   const content = [
-    { id: 2, title: t('learnMore.marker2.title'), text: t('learnMore.marker2.text'), img: asteroid },
     { id: 1, title: t('learnMore.marker1.title'), text: t('learnMore.marker1.text'), img: spacecraft },
+    { id: 2, title: t('learnMore.marker2.title'), text: t('learnMore.marker2.text'), img: asteroid },
     { id: 3, title: t('learnMore.marker3.title'), text: t('learnMore.marker3.text'), img: launch },
     { id: 4, title: t('learnMore.marker4.title'), text: t('learnMore.marker4.text'), img: history },
     { id: 5, title: t('learnMore.marker5.title'), text: t('learnMore.marker5.text'), img: orbit },
