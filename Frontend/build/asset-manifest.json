@@ -1,21 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.59bf773e.css",
-    "main.js": "/static/js/main.075df470.js",
-    "static/js/453.04e2337a.chunk.js": "/static/js/453.04e2337a.chunk.js",
-    "static/media/psyche.mp4": "/static/media/psyche.64ba1ba218a32a327bf9.mp4",
-    "static/media/history.avif": "/static/media/history.ed00d08b4544d97193c5.avif",
-    "static/media/spacecraft.avif": "/static/media/spacecraft.87318d882aeb01ee8ea3.avif",
-    "static/media/Asteroid.avif": "/static/media/Asteroid.dab9be31097ea6db9063.avif",
-    "static/media/orbit.avif": "/static/media/orbit.cf60916f984707d3455b.avif",
-    "static/media/launch.avif": "/static/media/launch.2aeafdf43d6493a480c6.avif",
-    "index.html": "/index.html",
-    "main.59bf773e.css.map": "/static/css/main.59bf773e.css.map",
-    "main.075df470.js.map": "/static/js/main.075df470.js.map",
-    "453.04e2337a.chunk.js.map": "/static/js/453.04e2337a.chunk.js.map"
+    "main.css": "/iridium_18d_ar_xr-uwplatt/static/css/main.47cce595.css",
+    "main.js": "/iridium_18d_ar_xr-uwplatt/static/js/main.e2f7ff9c.js",
+    "static/js/453.04e2337a.chunk.js": "/iridium_18d_ar_xr-uwplatt/static/js/453.04e2337a.chunk.js",
+    "static/media/psyche.mp4": "/iridium_18d_ar_xr-uwplatt/static/media/psyche.7792c4e51e128255e9c9.mp4",
+    "static/media/IMG3.PNG": "/iridium_18d_ar_xr-uwplatt/static/media/IMG3.3d42c19f941e8a83e287.PNG",
+    "static/media/IMG2.PNG": "/iridium_18d_ar_xr-uwplatt/static/media/IMG2.5bb1c8e76dd5b8702ab6.PNG",
+    "static/media/Marker2.png": "/iridium_18d_ar_xr-uwplatt/static/media/Marker2.505dac9c6f29ab9de687.png",
+    "static/media/Marker4.png": "/iridium_18d_ar_xr-uwplatt/static/media/Marker4.355365f8a1f20aba8507.png",
+    "static/media/Marker1.png": "/iridium_18d_ar_xr-uwplatt/static/media/Marker1.66ab5b84c3da68046696.png",
+    "static/media/Marker3.png": "/iridium_18d_ar_xr-uwplatt/static/media/Marker3.b069e1297650fed14068.png",
+    "static/media/Marker5.png": "/iridium_18d_ar_xr-uwplatt/static/media/Marker5.2638b6e2b14daf028fa2.png",
+    "static/media/IMG1.PNG": "/iridium_18d_ar_xr-uwplatt/static/media/IMG1.1c341dff6c168fb4ddfd.PNG",
+    "static/media/IMG4.PNG": "/iridium_18d_ar_xr-uwplatt/static/media/IMG4.5fca62f0cd69f97b8af9.PNG",
+    "static/media/IMG5.PNG": "/iridium_18d_ar_xr-uwplatt/static/media/IMG5.4fa2caa77a4b34edc6c9.PNG",
+    "index.html": "/iridium_18d_ar_xr-uwplatt/index.html",
+    "main.47cce595.css.map": "/iridium_18d_ar_xr-uwplatt/static/css/main.47cce595.css.map",
+    "main.e2f7ff9c.js.map": "/iridium_18d_ar_xr-uwplatt/static/js/main.e2f7ff9c.js.map",
+    "453.04e2337a.chunk.js.map": "/iridium_18d_ar_xr-uwplatt/static/js/453.04e2337a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.59bf773e.css",
-    "static/js/main.075df470.js"
+    "static/css/main.47cce595.css",
+    "static/js/main.e2f7ff9c.js"
   ]
 }
