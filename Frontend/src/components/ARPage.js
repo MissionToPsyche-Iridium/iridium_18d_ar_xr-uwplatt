@@ -24,7 +24,7 @@ const ARPage = ({ onBack }) => {
     <div style={styles.container}>
       <iframe
         title="AR Page"
-        src="https://grandmaster619.github.io/"
+        src="https://missiontopsyche-iridium.github.io/iridium_18d_ar_xr-uwplatt_unity/"
         style={styles.iframe}
         allow="camera; microphone" // Grants access to the user's camera and microphone for AR
       />
